@@ -157,8 +157,16 @@ for (var i = 0; i < args.length; i++) {
       nodeArgs.push('--debug-brk')
       continue
 
+    case '--es_staging':
+      nodeArgs.push('--es_staging')
+      continue
+
     case '--harmony':
       nodeArgs.push('--harmony')
+      continue
+
+    case '--harmony_destructuring':
+      nodeArgs.push('--harmony_destructuring')
       continue
 
     case '--color':
